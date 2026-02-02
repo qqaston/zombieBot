@@ -1,0 +1,36 @@
+# Archivos de entorno de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Configuraciones de IDE y editores
+.vscode/
+.idea/
+
+# Dependencias y paquetes
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Archivos específicos del proyecto
+downloads/
+temp/
+output/
+*.log
+.env
+channels.txt
+# Excluir archivos JSON temporales en la raíz
+*.json
+!package.json
+!manifest.json
+
+# Sistema Operativo
+.DS_Store
+Thumbs.db
